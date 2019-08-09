@@ -134,7 +134,8 @@ STATICFILES_DIRS = [
 ]
 
 ALLOWED_HOSTS = [
-        "intense-temple-22933.herokuapp.com"
+        "intense-temple-22933.herokuapp.com",
+        "127.0.0.1"
         ]
 
 

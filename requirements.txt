@@ -3,3 +3,4 @@ gunicorn
 wordcloud
 pandas
 matplotlib
+whitenoise

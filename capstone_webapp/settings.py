@@ -133,4 +133,8 @@ STATICFILES_DIRS = [
          os.path.join(BASE_DIR, "prelim", "static")
 ]
 
+ALLOWED_HOSTS = [
+        "intense-temple-22933.herokuapp.com"
+        ]
+
 

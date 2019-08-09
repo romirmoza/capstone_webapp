@@ -11,6 +11,7 @@
       <li><a href="#">Home</a></li>
 	  <li><a href="#motivation">Motivation</a></li>
       <li><a href="#analysis">Analysis</a></li>
+	  <li><a href="#goals">Goals/Deliverables</a></li>
     </ul>
   </div>
 </nav>
@@ -18,8 +19,7 @@
 
 <div class="jumbotron" id="title" style="color:black">
     <h1 align="center"> 911 Emergency Preparedness </h1> 
-    <p align="center"> Bootstrap is the most popular HTML, CSS, and JS framework for developing
-    responsive, mobile-first projects on the web. </p> 
+    <p align="center"> Using data to predict   </p> 
 </div>
 
 <div class="jumbotron" id="motivation" style="color:black">
@@ -47,8 +47,8 @@ of emergencies in the city over the past 6 years. The final project will use dat
 <div class="row">
   <div class="col-sm-6" style="padding: 50px">
 	<h4> 
-	The dataset has 6,388,610 entries with 17 features. Although a lot of these features like the 'RecordID' shouldn't be of much use. There are also 'PoliceDistrict', 'District' and 'Neighborhood' which are 
-	essentially the same information. Next, we group our data by PoliceDistrict and check for fluctuations in the number of 911 calls from the these districts over 6 years. The goal is to get an idea as to whether 
+	The dataset has 6,388,610 entries with 17 features. Although a few of these features like the 'RecordID' are not useful. There are also features like 'PoliceDistrict', 'District' and 'Neighborhood' which 
+	essentially give the same information. We group our data by PoliceDistrict and check for fluctuations in the number of 911 calls from the these districts over 6 years. The goal is to get an idea as to whether 
 	geographic location has any bearing on the number of emergencies there.
 	<br/> <br/>
 	Interestingly, the data shows very little temporal variation. Instead, what we see is a steady but different rate of 911 calls coming in from different districts. The simplest explanation could have been the 
@@ -68,7 +68,8 @@ of emergencies in the city over the past 6 years. The final project will use dat
 	<img src="{% static "img/plot2.png" %}"  class="img-rounded" alt="Plot2" style="width:600px;height:600px;">
   </div>
   <div class="col-sm-6" style="padding: 50px">
-	<h4> To make this difference more apparent, I have a boxplot of the total number of 911 calls for the 9 districts given below, which better depicts the variation.
+	<h4> To make this the findings from the previous figure more apparent, I have a boxplot of the total number of 911 calls for the 9 districts given below, which better depicts the variation. We can see there is very 
+	little variation in the calls coming from a district over the years.
 	
 	</h4>
   </div>
@@ -101,6 +102,19 @@ of emergencies in the city over the past 6 years. The final project will use dat
 	Clearly, the frequency of 911 calls are related to the locations the calls are made from and the reason for making them.
 	</h4>
   </div>
+</div>
+
+<div class="jumbotron" id="goals" style="color:black">
+	<h1 align="center">Goals/Deliverables</h1> 
+</div>
+
+<div class="row" style="padding: 50px">
+	<h4> Here are some of the goals I would like to achieve by the end of this project.</h4> 
+	<ul class="list-group">
+	<div class="panel-body"><li><h4> Be able to predict the risk level of a particular location to various emergencies. </h4></li></div>
+	<div class="panel-body"><li><h4> Present the learnt model on this webapp with an interactive UI. </h4></li></div>
+	<div class="panel-body"><li><h4> Provide law enforcement and related personnel with the finding so they can better manage their resources. </h4></li></div>
+	</ul>
 </div>
 
 <footer class="container-fluid text-center">

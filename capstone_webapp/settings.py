@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'l_&9a+jmme81s3k7j6kwmy1j7z+l_tw+romm_+1)=vvzjp07b6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['http://intense-temple-22933.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition

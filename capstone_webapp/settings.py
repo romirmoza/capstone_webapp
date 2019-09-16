@@ -25,7 +25,7 @@ SECRET_KEY = 'l_&9a+jmme81s3k7j6kwmy1j7z+l_tw+romm_+1)=vvzjp07b6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['capstone-webapp.herokuapp.com']
 
 
 # Application definition
@@ -141,5 +141,3 @@ ALLOWED_HOSTS = [
         "intense-temple-22933.herokuapp.com",
         "127.0.0.1"
         ]
-
-
